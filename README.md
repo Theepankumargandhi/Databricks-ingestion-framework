@@ -36,7 +36,7 @@ It answers correctly by reading directly from the Delta tables. MLflow tracing i
 
 **Notebook 3 - 03_langgraph_agent**
 
-Same agent concept, but using LangGraph with OpenAI GPT-3.5-turbo instead. I wanted to show that the Bronze Delta tables aren't locked into Databricks-native tools — any LLM framework can sit on top.
+Same agent concept, but using LangGraph with OpenAI GPT-3.5-turbo instead. I wanted to show that the Bronze Delta tables aren't locked into Databricks-native tools  any LLM framework can sit on top.
 
 MLflow tracks these runs separately so you can compare both agents side by side.
 
@@ -87,4 +87,4 @@ External Sources (JDBC / File / API)
 
 ## Notes
 
-This was built as a learning POC. The source connections are simulated using Databricks sample data, but the framework structure mirrors how a real ingestion pipeline would work — config-driven, auditable, and fault-tolerant. In a production setup, the JDBC source would point to an actual database, files would come from S3 or ADLS, and the API source would call a real endpoint like Salesforce or a weather API.
+This was built as a learning POC. The source connections are simulated using Databricks sample data, but the framework structure mirrors how a real ingestion pipeline would work config-driven, auditable, and fault-tolerant. In a production setup, the JDBC source would point to an actual database, files would come from S3 or ADLS, and the API source would call a real endpoint like Salesforce or a weather API.
