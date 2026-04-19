@@ -15,7 +15,7 @@ This is the main piece. It ingests data from three types of sources:
 
 Every run is logged  what ran, when, how many rows came in, and whether it succeeded or failed. If something fails midway, you don't have to start over. The framework remembers what already succeeded and only retries what failed.
 
-All data lands in Bronze Delta tables, raw and untouched — following the Medallion Architecture pattern.
+All data lands in Bronze Delta tables, raw and untouched  following the Medallion Architecture pattern.
 
 I used real data from the Databricks Bakehouse sample dataset: 3,333 sales transactions, 300 customers, and 48 franchises across three tables.
 
