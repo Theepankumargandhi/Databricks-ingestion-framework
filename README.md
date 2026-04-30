@@ -36,7 +36,7 @@ MLflow tracing is on, so every call shows latency and the full input/output brea
 
 **Notebook 3 - 03_langgraph_agent**
 
-Same Text-to-SQL concept but using LangGraph with Databricks Llama 3.3 70B. Shows how LangGraph and Mosaic AI are two different approaches to building agents on the same Bronze Delta tables. No API key needed — runs entirely on Databricks built-in LLM.
+Same Text-to-SQL concept but using LangGraph with Databricks Llama 3.3 70B. Shows how LangGraph and Mosaic AI are two different approaches to building agents on the same Bronze Delta tables. No API key needed - runs entirely on Databricks built-in LLM.
 
 MLflow tracks these runs separately so you can compare both agents side by side.
 
