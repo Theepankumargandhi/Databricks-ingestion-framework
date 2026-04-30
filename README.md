@@ -23,7 +23,7 @@ I used real data from the Databricks Bakehouse sample dataset: 3,333 sales trans
 
 **Notebook 2 - 02_mosaic_agent**
 
-Once the data is in Bronze, this agent lets you query it in plain English. Built using Databricks native Mosaic AI Agent framework (ResponsesAgent) with Llama 3.3 70B. Uses Text-to-SQL approach — LLM generates SQL dynamically from natural language questions and runs it on Bronze Delta tables.
+Once the data is in Bronze, this agent lets you query it in plain English. Built using Databricks native Mosaic AI Agent framework (ResponsesAgent) with Llama 3.3 70B. Uses Text-to-SQL approach - LLM generates SQL dynamically from natural language questions and runs it on Bronze Delta tables.
 
 Things I tested it with:
 - "What are the top 3 best selling products by revenue?"
